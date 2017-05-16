@@ -7,13 +7,13 @@ let gulp = require('gulp'),
 
 gulp.task('default', function(){
 	console.log('Default Task');
-	gulp.watch('src/sass/**/*.scss', ['styles']);
+	gulp.watch('src/**/*.scss', ['styles']);
 });
 
 // GULP RUNNING CSS minified
 
 gulp.task('styles', function(){
-	gulp.src('src/sass/**/*.scss')
+	gulp.src('src/**/*.scss')
 	.pipe(sass().on('error', sass.logError))
 	.pipe(cleanCSS())
 	.pipe(gulp.dest('./public/styles/'));
