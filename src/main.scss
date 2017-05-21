@@ -11,6 +11,11 @@ $fontColor: #F1FFFA;
 $fontColor2: #000000;
 $font: 'Dosis', sans-serif;
 
+// HR Rules
+$small: 100px;
+$medium: 200px;
+$large: 300px;
+
 // Main Styles
 html,
 body {
@@ -23,25 +28,32 @@ body {
   background-color: $primary !important;
 }
 .bg-secondary {
-  background-color: $secondary;
+  background-color: $secondary !important;
 }
 .bg-tertiary {
-  background-color: $tertiary;
+  background-color: $tertiary !important;
 }
 .bg-quaternary {
-  background-color: $quaternary;
+  background-color: $quaternary !important;
 }
 .bg-light {
-  background-color: $fontColor;
+  background-color: $fontColor !important;
 }
 .bg-dark {
-  background-color: $fontColor2;
+  background-color: $fontColor2 !important;
 }
 
 // HORIZONTAL RULE
-
 hr.small {
-  max-width: 100px;
+  max-width: $small;
+}
+
+hr.med {
+  max-width: $medium;
+}
+
+hr.lg {
+  max-width: $large;
 }
 
 // NAV BAR
@@ -236,7 +248,15 @@ footer h4, p, i {
 ////////////VENDOR PAGE////////////////////
 // HEADER
 .vendor-header {
+  background: url(../../img/photos/IMG_1888.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: $fontColor;
+}
+
+// CAROUSEL
+.carousel {
+  margin: 2% 0;
 }
 
 .carousel img {
@@ -246,5 +266,14 @@ footer h4, p, i {
 // INFO
 .vendors i {
   color: #eb3812 !important;
+}
+
+.vendors h2, h3, h4, h5 {
+  color: $fontColor2 !important;
+}
+
+.info .vendor-list li {
+  font-size: 14px;
+  list-style: none;
 }
 

@@ -7,22 +7,28 @@ body {
   background-color: #40975B !important; }
 
 .bg-secondary {
-  background-color: #93B7BE; }
+  background-color: #93B7BE !important; }
 
 .bg-tertiary {
-  background-color: #F2F3AE; }
+  background-color: #F2F3AE !important; }
 
 .bg-quaternary {
-  background-color: #F9A03F; }
+  background-color: #F9A03F !important; }
 
 .bg-light {
-  background-color: #F1FFFA; }
+  background-color: #F1FFFA !important; }
 
 .bg-dark {
-  background-color: #000000; }
+  background-color: #000000 !important; }
 
 hr.small {
   max-width: 100px; }
+
+hr.med {
+  max-width: 200px; }
+
+hr.lg {
+  max-width: 300px; }
 
 .navbar {
   background-color: #4A6FA5 !important;
@@ -182,10 +188,23 @@ footer h4, p, i {
   right: 5px; }
 
 .vendor-header {
+  background: url(../../img/photos/IMG_1888.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #F1FFFA; }
+
+.carousel {
+  margin: 2% 0; }
 
 .carousel img {
   max-height: 70vh; }
 
 .vendors i {
   color: #eb3812 !important; }
+
+.vendors h2, h3, h4, h5 {
+  color: #000000 !important; }
+
+.info .vendor-list li {
+  font-size: 14px;
+  list-style: none; }
