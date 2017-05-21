@@ -53,15 +53,15 @@ hr.small {
 }
 
 .navbar {
-  background-color: white;
+  background-color: $primary !important;
   border-color: rgba(34, 34, 34, 0.05);
   font-family: $font;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
-.navbar .navbar-header .navbar-brand {
-  color: #F05F40;
+.navbar .navbar-header .navbar-brand img {
+  margin-top: -30%;
 }
 .navbar .navbar-header .navbar-brand:hover,
 .navbar .navbar-header .navbar-brand:focus {
@@ -70,7 +70,7 @@ hr.small {
 .navbar .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
-  color: $secondary;
+  color: $secondary !important;
   text-transform: uppercase;
 }
 .navbar .nav > li > a,
@@ -82,16 +82,16 @@ hr.small {
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #F05F40 !important;
 }
 .navbar .nav > li.active > a,
 .navbar .nav > li.active > a:focus {
   color: #F05F40 !important;
-  background-color: transparent;
+  background-color: transparent !important;
 }
 .navbar .nav > li.active > a:hover,
 .navbar .nav > li.active > a:focus:hover {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -198,6 +198,12 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+// MARKET
+.market img {
+  height: auto;
+  width: 80vw;
+}
+
 // ABOUT
 
 .about {
