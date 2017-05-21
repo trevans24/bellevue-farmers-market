@@ -57,11 +57,10 @@ hr.lg {
 }
 
 // NAV BAR
-
 .navbar {
   background-color: #4A6FA5 !important;
   border-color: $secondary;
-  font-family: $font;
+  font-family: $font !important;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -70,6 +69,7 @@ hr.lg {
   margin-top: -30%;
 }
 .navbar .navbar-header .navbar-toggle {
+  font-family: $font !important;
   font-weight: 700;
   font-size: 12px;
   color: white !important;
@@ -79,17 +79,20 @@ hr.lg {
 .navbar .nav > li > a:focus {
   color: white !important;
   text-transform: uppercase;
+  font-family: $font !important;
   font-weight: 700;
   font-size: 16px;
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus:hover {
   color: $fontColor2 !important;
+  font-family: $font !important;
 }
 .navbar .nav > li.active > a,
 .navbar .nav > li.active > a:focus {
   color: $fontColor2 !important;
   background-color: transparent !important;
+  font-family: $font !important;
 }
 .navbar .nav > li.active > a:hover,
 .navbar .nav > li.active > a:focus:hover {
@@ -103,10 +106,12 @@ hr.lg {
   .navbar .nav > li > a,
   .navbar .nav > li > a:focus {
     color: white !important;
+    font-family: $font !important;
   }
   .navbar .nav > li > a:hover,
   .navbar .nav > li > a:focus:hover {
     color: transparent;
+    font-family: $font !important;
   }
   .navbar.affix {
     background-color: transparent;
@@ -115,16 +120,19 @@ hr.lg {
   .navbar.affix .nav > li > a,
   .navbar.affix .nav > li > a:focus {
     color: transparent;
+    font-family: $font !important;
   }
   .navbar.affix .nav > li > a:hover,
   .navbar.affix .nav > li > a:focus:hover {
     color: transparent;
+    font-family: $font !important;
   }
 }
 
 // HEADER
 header .main {
   position: relative;
+  font-family: $font !important;
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -137,12 +145,14 @@ header .main {
   color: white;
 }
 header .header-content {
+  font-family: $font !important;
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
+  font-family: $font !important;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -153,6 +163,7 @@ header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header .header-content .header-content-inner p {
+  font-family: $font !important;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
@@ -176,9 +187,11 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
+    font-family: $font !important;
     font-size: 50px;
   }
   header .header-content .header-content-inner p {
+    font-family: $font !important;
     font-size: 18px;
     max-width: 80%;
     margin-left: auto;
@@ -186,8 +199,9 @@ header .header-content .header-content-inner p {
   }
 }
 // MARKET
-.market .location-container h2, h3, h4, h6, p{
+.market .location-container h2, h3, h4, h6, p {
   color: $fontColor !important;
+  font-family: $font !important;
 }
 .market img {
   height: auto;
@@ -195,15 +209,18 @@ header .header-content .header-content-inner p {
 }
 section .additional {
   display: inline;
+  font-family: $font !important;
 }
 
 // SPONSORS
 .sponsors {
+  font-family: $font !important;
   margin-bottom: 5%;
 }
 
 .sponsors h2, h3 {
   color: $fontColor2 !important;
+  font-family: $font !important;
 }
 
 .sponsors img {
@@ -234,7 +251,12 @@ section .additional {
 }
 
 // FOOTER
-footer h4, p, i {
+footer h4, p {
+  color: $fontColor2 !important;
+  font-family: $font !important;
+}
+
+footer i {
   color: $fontColor2 !important;
 }
 
@@ -252,6 +274,7 @@ footer h4, p, i {
   background-repeat: no-repeat;
   background-size: cover;
   color: $fontColor;
+  font-family: $font;
 }
 
 // CAROUSEL
@@ -268,15 +291,22 @@ footer h4, p, i {
   color: #eb3812 !important;
 }
 
-.vendors h2, h3, h4, h5, li {
+.vendors h2, h3, h4, li {
   color: $fontColor2 !important;
+  font-family: $font !important;
+}
+
+.vendors h3 {
+  font-size: 2em;
 }
 
 .info .vendor-list li a {
   color: $tertiary;
 }
 .info .vendor-list li {
-  font-size: 14px;
+  font-family: $font;
+  font-size: 1.5em;
   list-style: none;
+  padding: 1% 0;
 }
 

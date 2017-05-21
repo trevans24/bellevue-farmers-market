@@ -33,7 +33,7 @@ hr.lg {
 .navbar {
   background-color: #4A6FA5 !important;
   border-color: #93B7BE;
-  font-family: "Dosis", sans-serif;
+  font-family: "Dosis", sans-serif !important;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s; }
@@ -42,6 +42,7 @@ hr.lg {
   margin-top: -30%; }
 
 .navbar .navbar-header .navbar-toggle {
+  font-family: "Dosis", sans-serif !important;
   font-weight: 700;
   font-size: 12px;
   color: white !important;
@@ -51,17 +52,20 @@ hr.lg {
 .navbar .nav > li > a:focus {
   color: white !important;
   text-transform: uppercase;
+  font-family: "Dosis", sans-serif !important;
   font-weight: 700;
   font-size: 16px; }
 
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus:hover {
-  color: #000000 !important; }
+  color: #000000 !important;
+  font-family: "Dosis", sans-serif !important; }
 
 .navbar .nav > li.active > a,
 .navbar .nav > li.active > a:focus {
   color: #000000 !important;
-  background-color: transparent !important; }
+  background-color: transparent !important;
+  font-family: "Dosis", sans-serif !important; }
 
 .navbar .nav > li.active > a:hover,
 .navbar .nav > li.active > a:focus:hover {
@@ -73,21 +77,26 @@ hr.lg {
     border-color: rgba(255, 255, 255, 0.3); }
   .navbar .nav > li > a,
   .navbar .nav > li > a:focus {
-    color: white !important; }
+    color: white !important;
+    font-family: "Dosis", sans-serif !important; }
   .navbar .nav > li > a:hover,
   .navbar .nav > li > a:focus:hover {
-    color: transparent; }
+    color: transparent;
+    font-family: "Dosis", sans-serif !important; }
   .navbar.affix {
     background-color: transparent; }
   .navbar.affix .nav > li > a,
   .navbar.affix .nav > li > a:focus {
-    color: transparent; }
+    color: transparent;
+    font-family: "Dosis", sans-serif !important; }
   .navbar.affix .nav > li > a:hover,
   .navbar.affix .nav > li > a:focus:hover {
-    color: transparent; } }
+    color: transparent;
+    font-family: "Dosis", sans-serif !important; } }
 
 header .main {
   position: relative;
+  font-family: "Dosis", sans-serif !important;
   width: 100%;
   min-height: auto;
   -webkit-background-size: cover;
@@ -100,12 +109,14 @@ header .main {
   color: white; }
 
 header .header-content {
+  font-family: "Dosis", sans-serif !important;
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%; }
 
 header .header-content .header-content-inner h1 {
+  font-family: "Dosis", sans-serif !important;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -116,6 +127,7 @@ header .header-content .header-content-inner hr {
   margin: 30px auto; }
 
 header .header-content .header-content-inner p {
+  font-family: "Dosis", sans-serif !important;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
@@ -136,28 +148,34 @@ header .header-content .header-content-inner p {
     margin-left: auto;
     margin-right: auto; }
   header .header-content .header-content-inner h1 {
+    font-family: "Dosis", sans-serif !important;
     font-size: 50px; }
   header .header-content .header-content-inner p {
+    font-family: "Dosis", sans-serif !important;
     font-size: 18px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto; } }
 
 .market .location-container h2, h3, h4, h6, p {
-  color: #F1FFFA !important; }
+  color: #F1FFFA !important;
+  font-family: "Dosis", sans-serif !important; }
 
 .market img {
   height: auto;
   width: 80vw; }
 
 section .additional {
-  display: inline; }
+  display: inline;
+  font-family: "Dosis", sans-serif !important; }
 
 .sponsors {
+  font-family: "Dosis", sans-serif !important;
   margin-bottom: 5%; }
 
 .sponsors h2, h3 {
-  color: #000000 !important; }
+  color: #000000 !important;
+  font-family: "Dosis", sans-serif !important; }
 
 .sponsors img {
   height: 80%;
@@ -178,7 +196,11 @@ section .additional {
 .map iframe {
   pointer-events: none; }
 
-footer h4, p, i {
+footer h4, p {
+  color: #000000 !important;
+  font-family: "Dosis", sans-serif !important; }
+
+footer i {
   color: #000000 !important; }
 
 #to-top {
@@ -191,7 +213,8 @@ footer h4, p, i {
   background: url(../../img/photos/IMG_1888.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  color: #F1FFFA; }
+  color: #F1FFFA;
+  font-family: "Dosis", sans-serif; }
 
 .carousel {
   margin: 2% 0; }
@@ -202,12 +225,18 @@ footer h4, p, i {
 .vendors i {
   color: #eb3812 !important; }
 
-.vendors h2, h3, h4, h5, li {
-  color: #000000 !important; }
+.vendors h2, h3, h4, li {
+  color: #000000 !important;
+  font-family: "Dosis", sans-serif !important; }
+
+.vendors h3 {
+  font-size: 2em; }
 
 .info .vendor-list li a {
   color: #F2F3AE; }
 
 .info .vendor-list li {
-  font-size: 14px;
-  list-style: none; }
+  font-family: "Dosis", sans-serif;
+  font-size: 1.5em;
+  list-style: none;
+  padding: 1% 0; }
