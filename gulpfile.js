@@ -15,6 +15,6 @@ gulp.task('default', function(){
 gulp.task('styles', function(){
 	gulp.src('src/**/*.scss')
 	.pipe(sass().on('error', sass.logError))
-	.pipe(cleanCSS())
+	// .pipe(cleanCSS())
 	.pipe(gulp.dest('./public/styles/'));
 });
