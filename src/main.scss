@@ -268,10 +268,13 @@ footer h4, p, i {
   color: #eb3812 !important;
 }
 
-.vendors h2, h3, h4, h5 {
+.vendors h2, h3, h4, h5, li {
   color: $fontColor2 !important;
 }
 
+.info .vendor-list li a {
+  color: $tertiary;
+}
 .info .vendor-list li {
   font-size: 14px;
   list-style: none;
