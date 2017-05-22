@@ -10,6 +10,11 @@ $quaternary: #F9A03F;
 $fontColor: #F1FFFA;
 $fontColor2: #000000;
 $font: 'Dosis', sans-serif;
+$bold: 600;
+
+.bold {
+  font-weight: $bold;
+}
 
 // HR Rules
 $small: 100px;
@@ -58,7 +63,7 @@ hr.lg {
 
 // NAV BAR
 .navbar {
-  background-color: #4A6FA5 !important;
+  background-color: $primary !important;
   border-color: $secondary;
   font-family: $font !important;
   -webkit-transition: all 0.35s;
@@ -100,7 +105,7 @@ hr.lg {
 }
 @media (min-width: 768px) {
   .navbar {
-    background-color: #4A6FA5;
+    background-color: $primary !important;
     border-color: rgba(255, 255, 255, 0.3);
   }
   .navbar .nav > li > a,
@@ -130,7 +135,7 @@ hr.lg {
 }
 
 // HEADER
-header .main {
+header {
   position: relative;
   font-family: $font !important;
   width: 100%;
@@ -224,9 +229,9 @@ section .additional {
 }
 
 .sponsors img {
-  height: 80%;
+  // height: 70%;
   margin: 5%;
-  width: 80%;
+  width: 60%;
 }
 
 .sponsors i {
@@ -310,3 +315,7 @@ footer i {
   padding: 1% 0;
 }
 
+///////////VENDOR APPLICATION///////////////////////
+.top-info li {
+  padding: 1% 0;
+}

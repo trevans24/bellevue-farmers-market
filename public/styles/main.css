@@ -1,3 +1,6 @@
+.bold {
+  font-weight: 600; }
+
 html,
 body {
   width: 100%;
@@ -31,7 +34,7 @@ hr.lg {
   max-width: 300px; }
 
 .navbar {
-  background-color: #4A6FA5 !important;
+  background-color: #40975B !important;
   border-color: #93B7BE;
   font-family: "Dosis", sans-serif !important;
   -webkit-transition: all 0.35s;
@@ -73,7 +76,7 @@ hr.lg {
 
 @media (min-width: 768px) {
   .navbar {
-    background-color: #4A6FA5;
+    background-color: #40975B !important;
     border-color: rgba(255, 255, 255, 0.3); }
   .navbar .nav > li > a,
   .navbar .nav > li > a:focus {
@@ -94,7 +97,7 @@ hr.lg {
     color: transparent;
     font-family: "Dosis", sans-serif !important; } }
 
-header .main {
+header {
   position: relative;
   font-family: "Dosis", sans-serif !important;
   width: 100%;
@@ -178,9 +181,8 @@ section .additional {
   font-family: "Dosis", sans-serif !important; }
 
 .sponsors img {
-  height: 80%;
   margin: 5%;
-  width: 80%; }
+  width: 60%; }
 
 .sponsors i {
   color: #eb3812 !important; }
@@ -239,4 +241,7 @@ footer i {
   font-family: "Dosis", sans-serif;
   font-size: 1.5em;
   list-style: none;
+  padding: 1% 0; }
+
+.top-info li {
   padding: 1% 0; }
