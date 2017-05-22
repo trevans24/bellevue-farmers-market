@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/trevans24/bellevue-farmers-market#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.3.0",
     "gulp-sass": "^3.1.0"
