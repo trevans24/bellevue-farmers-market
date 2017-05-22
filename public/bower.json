@@ -1,0 +1,17 @@
+{
+  "name": "public",
+  "homepage": "https://github.com/trevans24/bellevue-farmers-market",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4"
+  }
+}

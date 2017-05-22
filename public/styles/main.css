@@ -107,7 +107,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url(../../img/photos/IMG_1893.JPG);
+  background-image: url(../img/photos/IMG_1893.JPG);
   text-align: center;
   color: white; }
 
@@ -212,7 +212,7 @@ footer i {
   right: 5px; }
 
 .vendor-header {
-  background: url(../../img/photos/IMG_1888.JPG);
+  background: url(../img/photos/IMG_1888.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   color: #F1FFFA;
