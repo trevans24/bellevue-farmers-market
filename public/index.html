@@ -7,6 +7,10 @@
   <meta name="description" content="Bellevue Farmers Market, Bellevue Washington">
   <meta name="author" content="">
   <title>Bellevue Farmers Market</title>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
   <!-- Bootstrap Core CSS -->
   <link href="styles/bootstrap.min.css" rel="stylesheet">
   <!-- Custom Fonts -->
@@ -15,8 +19,6 @@
   <link rel="stylesheet" type="text/css" href="styles/main.css">
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <!-- BOOTSTRAP -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -24,17 +26,17 @@
   <script src="bower_components/angular/angular.min.js"></script>
   <!-- UI-ROUTER -->
   <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-  <!-- client -->
+  <!-- Client -->
   <script src="client.js"></script>
   <!-- Bootstrap Core JavaScript -->
   <script src="js/bootstrap.min.js"></script>
-
+  <!-- Carousel -->
+  <script src="js/carousel.js"></script>
   <!-- Custom Theme JavaScript -->
   <script src="js/index.js"></script>
 </head>
-
-<body>
-
-
+<body ng-app="bfmApp">
+<nav ng-include="'templates/nav.html'"></nav>
+  <ui-view>
 </body>
 </html>
