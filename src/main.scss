@@ -294,6 +294,10 @@ footer i {
   right: 5px;
 }
 
+footer ul .email {
+  color: $fontColor !important;
+}
+
 ////////////VENDOR PAGE////////////////////
 // HEADER
 .vendor-header {
@@ -340,4 +344,9 @@ footer i {
 ///////////VENDOR APPLICATION///////////////////////
 .top-info li {
   padding: 1% 0;
+}
+
+//////////SPONSORSHIP PAGE//////////////////////////
+.sponsor-header {
+  background: url('../img/photos/IMG_1891.JPG');
 }

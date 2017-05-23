@@ -228,6 +228,9 @@ footer i {
   bottom: 5px;
   right: 5px; }
 
+footer ul .email {
+  color: #F1FFFA !important; }
+
 .vendor-header {
   background: url(../img/photos/IMG_1888.JPG);
   background-repeat: no-repeat;
@@ -262,3 +265,6 @@ footer i {
 
 .top-info li {
   padding: 1% 0; }
+
+.sponsor-header {
+  background: url("../img/photos/IMG_1891.JPG"); }
