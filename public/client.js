@@ -13,7 +13,7 @@ angular.module('bfmApp', ['ui.router'])
 				templateUrl: 'templates/vendors.html'
 			})
 			.state('vendorApply', {
-				url: '/apply',
+				url: '/vendor-application',
 				templateUrl: 'templates/vendor-application.html'
 			});
 			$locationProvider.html5Mode({

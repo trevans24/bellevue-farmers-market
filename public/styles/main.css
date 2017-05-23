@@ -35,7 +35,7 @@ hr.lg {
 
 .navbar {
   background-color: #40975B !important;
-  border-color: #93B7BE;
+  border-color: #40975B;
   font-family: "Dosis", sans-serif !important;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -67,19 +67,42 @@ hr.lg {
 .navbar .nav > li.active > a,
 .navbar .nav > li.active > a:focus {
   color: #000000 !important;
-  background-color: transparent !important;
+  background-color: #40975B !important;
   font-family: "Dosis", sans-serif !important; }
 
 .navbar .nav > li.active > a:hover,
 .navbar .nav > li.active > a:focus:hover {
+  background-color: #40975B !important; }
+
+.navbar .nav > li.dropdown:hover > a,
+.navbar .nav > li.dropdown:hover > a:hover,
+.navbar .nav > li.dropdown:hover > a:focus {
+  background-color: #40975B !important;
+  color: #000000; }
+
+.navbar .nav > li.dropdown .dropdown-extra:hover,
+.navbar .nav > li.dropdown .dropdown-extra:focus {
   background-color: transparent !important; }
+
+li.dropdown:hover > .dropdown-menu {
+  background-color: #40975B !important;
+  display: block;
+  font-size: 18px !important;
+  padding: 5%; }
+
+li.dropdown > .dropdown-menu > li a {
+  color: #F1FFFA; }
+
+li.dropdown > .dropdown-menu > li a:hover {
+  color: #000000; }
 
 @media (min-width: 768px) {
   .navbar {
     background-color: #40975B !important;
-    border-color: rgba(255, 255, 255, 0.3); }
+    border-color: #40975B; }
   .navbar .nav > li > a,
   .navbar .nav > li > a:focus {
+    background-color: transparent !important;
     color: white !important;
     font-family: "Dosis", sans-serif !important; }
   .navbar .nav > li > a:hover,
@@ -87,29 +110,23 @@ hr.lg {
     color: transparent;
     font-family: "Dosis", sans-serif !important; }
   .navbar.affix {
-    background-color: transparent; }
+    background-color: #40975B; }
   .navbar.affix .nav > li > a,
   .navbar.affix .nav > li > a:focus {
-    color: transparent;
+    color: #F1FFFA;
     font-family: "Dosis", sans-serif !important; }
   .navbar.affix .nav > li > a:hover,
   .navbar.affix .nav > li > a:focus:hover {
-    color: transparent;
+    color: #F1FFFA;
     font-family: "Dosis", sans-serif !important; } }
 
 header {
-  position: relative;
+  background-image: url(../img/photos/tomatoes.jpg);
+  color: white;
   font-family: "Dosis", sans-serif !important;
-  width: 100%;
-  min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  background-position: center;
-  background-image: url(../img/photos/IMG_1893.JPG);
-  text-align: center;
-  color: white; }
+  -o-background-size: cover; }
 
 header .header-content {
   font-family: "Dosis", sans-serif !important;
